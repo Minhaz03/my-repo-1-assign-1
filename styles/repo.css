@@ -260,6 +260,8 @@
     gap: 20px;
     font-family: "Azeret Mono", monospace;
     padding: 40px;
+    width: 1300px;
+    margin-left: 220px;
 }
 
 .card-sector-1 {
