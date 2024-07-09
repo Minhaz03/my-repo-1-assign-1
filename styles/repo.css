@@ -64,7 +64,6 @@
     font-size: 30px;
     font-weight: bolder;
     line-height: 35px;
-    letter-spacing: 0%;
     text-align: center;
 
 }
@@ -75,7 +74,6 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
@@ -92,7 +90,6 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    letter-spacing: 0%;
     text-align: center;
     border: none;
     cursor: pointer;
@@ -119,7 +116,6 @@
     font-size: 22px;
     font-weight: 800;
     line-height: 18px;
-    letter-spacing: 0%;
     text-align: center;
     padding: 40px 0px 0px 0px;
 }
@@ -131,7 +127,6 @@
     font-size: 11px;
     font-weight: 400;
     line-height: 13px;
-    letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
     position: static;
@@ -159,7 +154,6 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 36px;
-    letter-spacing: 0%;
     text-align: left;
     margin-left: 20px;
     margin-top: 20px;
@@ -172,7 +166,6 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: left;
     margin-left: 20px;
     margin-top: 20px;
@@ -184,10 +177,9 @@
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     position: static;
+    justify-content: center;
     width: 150px;
     height: 48px;
     margin-left: 20px;
@@ -214,7 +206,6 @@
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
-    letter-spacing: 0%;
     text-align: center;
 
 }
@@ -225,7 +216,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
 }
@@ -236,9 +226,90 @@
     position: static;
     width: 1076px;
     height: 550px;
-    flex: none;
-    order: 0;
     align-self: stretch;
-    flex-grow: 0;
     margin: 0px 184px 50px 400px;
+}
+
+/* My current target */
+
+.target-title {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+
+.target-description {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+/* Target Cards */
+.card {
+    margin: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Azeret Mono", monospace;
+    padding: 40px;
+}
+
+.card-sector-1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.card-sector-2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.card-sector-3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-title {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.card-description {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.learn {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-left: 20px;
+}
+
+.card-img {
+    margin: 30px 0px 10px 20px;
+    width: 5;
 }
