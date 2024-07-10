@@ -23,7 +23,7 @@
 .secondary-bg {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin-top: 75px;
+    margin-top: 100px;
 }
 
 
@@ -196,6 +196,10 @@
 }
 
 /* My inspiration */
+.inspiration {
+    margin-top: 100px;
+}
+
 .inspi {
     margin-bottom: 40px;
 }
@@ -254,7 +258,6 @@
 
 /* Target Cards */
 .card {
-    margin: 40px 40px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -267,16 +270,19 @@
 .card-sector-1 {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
 }
 
 .card-sector-2 {
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
 }
 
 .card-sector-3 {
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
 }
 
 .card-title {
@@ -286,7 +292,6 @@
     font-weight: 800;
     line-height: 18px;
     text-align: left;
-    margin-left: 30px;
 }
 
 .card-description {
@@ -297,7 +302,6 @@
     line-height: 26px;
     opacity: 0.7;
     text-align: left;
-    margin-left: 30px;
 }
 
 .learn {
@@ -308,10 +312,79 @@
     line-height: 19px;
     text-align: left;
     text-decoration-line: underline;
-    margin-left: 20px;
 }
 
-.card-img {
-    margin: 30px 0px 10px 20px;
-    width: 5;
+
+/* Next target */
+.next-title {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+
+.next-description {
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.next-box {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 20px 150px 20px 150px;
+}
+
+.next-img {
+    width: 9.5%;
+    margin: 10px 20px 10px 20px;
+}
+
+.next-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 16px 0px;
+}
+
+.next-title-2 {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+
+.next-description-2 {
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: left;
+}
+
+.next-anchor {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
 }
